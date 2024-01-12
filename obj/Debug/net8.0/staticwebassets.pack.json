@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FizzBuzz.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FizzBuzz.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FizzBuzz.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FizzBuzz.props",
+      "PackagePath": "build\\FizzBuzz.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FizzBuzz.props",
+      "PackagePath": "buildMultiTargeting\\FizzBuzz.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FizzBuzz.props",
+      "PackagePath": "buildTransitive\\FizzBuzz.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

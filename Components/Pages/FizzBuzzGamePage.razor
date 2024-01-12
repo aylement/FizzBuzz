@@ -1,0 +1,20 @@
+@page "/fizzbuzzgamepage"
+@rendermode InteractiveServer
+
+<h3>The incredible FizzBuzz game!</h3>
+<input type="number" @bind="inputText" />
+<button @onclick="HandleButtonClick">Submit</button>
+<p>Result: @displayedText</p>
+@code {
+    private string inputText = "";
+    private string displayedText = "";
+
+    private void HandleButtonClick()
+    {
+        int inputFizzBuzz = Int32.Parse(inputText);
+        // Use 'inputText' for further processing
+        Console.WriteLine($"Button clicked with input: {inputFizzBuzz}");
+        // Update 'displayedText' to show the entered text
+        displayedText = FizzBuzzGame.Play(inputFizzBuzz);
+    }
+}
