@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\FizzBuzz.bundle.scp.css"
     },
     {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\Pictures\\Madagascariensis2.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Madagascariensis2.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\Pictures\\Tiliqua_scincoides_tongue.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Tiliqua_scincoides_tongue.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\Pictures\\dasypeltis-gansi.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\dasypeltis-gansi.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\Pictures\\eublepharis-macularius-stripe-gecko-leopard.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\eublepharis-macularius-stripe-gecko-leopard.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\Pictures\\pogona-vitticeps-adulte-red-agame-barbu.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\pogona-vitticeps-adulte-red-agame-barbu.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\Pictures\\riopa_10.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\riopa_10.jpg"
+    },
+    {
       "Id": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

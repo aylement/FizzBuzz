@@ -1,0 +1,7 @@
+D:\GitHub\FizzBuzz\FizzBuzz\bin\Publish\FizzBuzz.exe
+D:\GitHub\FizzBuzz\FizzBuzz\bin\Publish\appsettings.Development.json
+D:\GitHub\FizzBuzz\FizzBuzz\bin\Publish\appsettings.json
+D:\GitHub\FizzBuzz\FizzBuzz\bin\Publish\FizzBuzz.dll
+D:\GitHub\FizzBuzz\FizzBuzz\bin\Publish\FizzBuzz.deps.json
+D:\GitHub\FizzBuzz\FizzBuzz\bin\Publish\FizzBuzz.runtimeconfig.json
+D:\GitHub\FizzBuzz\FizzBuzz\bin\Publish\FizzBuzz.pdb

@@ -1,0 +1,68 @@
+@page "/reptiles"
+@attribute [StreamRendering]
+
+<PageTitle>Reptiles</PageTitle>
+
+<h1>Reptiles</h1>
+
+<p>This component demonstrates showing data, using a randomized list of reptiles.</p>
+
+@if (lizards == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Born on</th>
+                <th>Name</th>
+                <th>Picture</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var lizard in lizards)
+            {
+                <tr>
+                    <td>@lizard.age.ToShortDateString()</td>
+                    <td>@lizard.name</td>
+                    <td><img src="@lizard.picturePath" alt="Cute lizard pic" style="width:350px;height:240px" /></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private LizardsList[]? lizards;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Simulate asynchronous loading to demonstrate streaming rendering
+        await Task.Delay(500);
+
+        var startDate = DateOnly.FromDateTime(DateTime.Now);
+        var names = new[] { "Bob", "Dan", "NoName"};
+        var pics = new[] {
+"dasypeltis-gansi.jpg",
+"eublepharis-macularius-stripe-gecko-leopard.jpg",
+"Madagascariensis2.jpg",
+"pogona-vitticeps-adulte-red-agame-barbu.jpg",
+"riopa_10.jpg",
+"Tiliqua_scincoides_tongue.jpg", };
+        lizards = Enumerable.Range(1, 3).Select(index => new LizardsList
+            {
+                age = startDate.AddDays(index),
+                picturePath = "../Pictures/" + pics[Random.Shared.Next(pics.Length)],
+                name = names[Random.Shared.Next(names.Length)]
+            }).ToArray();
+    }
+
+    private class LizardsList
+    {
+        public DateOnly age { get; set; }
+        public string? name { get; set; }
+        public string? picturePath { get; set; }
+    }
+}
