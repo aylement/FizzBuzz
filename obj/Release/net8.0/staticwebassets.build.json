@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wyNZgYeEJTYpvpkiP+b91MbeUspZ5G6ZWgs4u/vYBr8=",
+  "Hash": "0IV7nMNg9ylpzk/7dxzoDvY/Sqkc2g6PK4cz/AHqees=",
   "Source": "FizzBuzz",
   "BasePath": "_content/FizzBuzz",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\github.png",
+      "SourceId": "FizzBuzz",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\",
+      "BasePath": "_content/FizzBuzz",
+      "RelativePath": "github.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\github.png"
     },
     {
       "Identity": "D:\\GitHub\\FizzBuzz\\FizzBuzz\\wwwroot\\Pictures\\dasypeltis-gansi.jpg",
