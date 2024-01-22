@@ -1,33 +1,10 @@
 @page "/login"
-@inject HttpClient httpClient
 @rendermode InteractiveServer
-
 <h3>Login</h3>
-<button @onclick="CallApi">Simple test</button>
-
+<button @onclick="GetLogin">Simple test</button>
 @code {
-    protected async Task CallApi()
+    private void GetLogin()
     {
-        Console.WriteLine($"Gnééé");
-        string baseUrl = "https://api.kaldwar.fr";
-        string endpoint = "/api/custom";
-        string url = baseUrl + endpoint;
-        try
-        {
-            // Make a GET request to the custom endpoint
-            var response = await httpClient.GetFromJsonAsync<MyResponseModel>(url);
-            // Handle the API response as needed
-            Console.WriteLine($"Response from API: {response.Message}");
-        }
-        catch (Exception ex)
-        {
-            // Handle errors appropriately
-            Console.WriteLine($"Error calling API: {ex.Message}");
-        }
-    }
-    // Define a class to represent the expected response from your API
-    public class MyResponseModel
-    {
-        public string Message { get; set; }
+        Console.WriteLine($"test");
     }
 }
