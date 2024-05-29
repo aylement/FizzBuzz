@@ -37,18 +37,8 @@ public static class FizzBuzzGame
     }
     public static bool InitialCheck(string field, out string? result, out int inputFizzBuzz)
     {
-        inputFizzBuzz = 0;
+        //inputFizzBuzz = 0;
         result = "";
-        if (field.Length >= 2 && field.Substring(0, 2) == "01")
-        {
-            result = "A bear loves you!";
-            return true;
-        }
-        if (field == "67")
-        {
-            result = "Nemy ♥";
-            return true;
-        }
         if(!int.TryParse(field, out inputFizzBuzz))
         {
             result = "Please enter a number.";
