@@ -1,7 +1,0 @@
-D:\GitHub\FizzBuzz\FizzBuzz\bin\Release\net8.0\publish\FizzBuzz.exe
-D:\GitHub\FizzBuzz\FizzBuzz\bin\Release\net8.0\publish\appsettings.Development.json
-D:\GitHub\FizzBuzz\FizzBuzz\bin\Release\net8.0\publish\appsettings.json
-D:\GitHub\FizzBuzz\FizzBuzz\bin\Release\net8.0\publish\FizzBuzz.dll
-D:\GitHub\FizzBuzz\FizzBuzz\bin\Release\net8.0\publish\FizzBuzz.deps.json
-D:\GitHub\FizzBuzz\FizzBuzz\bin\Release\net8.0\publish\FizzBuzz.runtimeconfig.json
-D:\GitHub\FizzBuzz\FizzBuzz\bin\Release\net8.0\publish\FizzBuzz.pdb
